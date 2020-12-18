@@ -1,0 +1,14 @@
+{
+  "name": "node-blue-node-backup",
+  "version": "1.0.1",
+  "description": "This package provides a node to create Homegear backups.",
+  "homepage": "https://github.com/Homegear/node-blue-node-backup",
+  "node-blue": {
+    "maxThreadCounts": {
+      "backup": 0
+    },
+    "nodes": {
+      "backup": "backup.php"
+    }
+  }
+}
